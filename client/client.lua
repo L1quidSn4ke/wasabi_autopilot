@@ -81,6 +81,7 @@ RegisterCommand(Config.StartCommand, function(source, args)
             Speed = Config.CrazySpeed
         elseif mode == 'normal' then
             Drive = Config.NormalDrive
+            Speed = Config.NormalSpeed                
         end
         if DoesBlipExist(GetFirstBlipInfoId(8)) then
             local blip = GetFirstBlipInfoId(8)
